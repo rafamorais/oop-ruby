@@ -1,0 +1,9 @@
+version: '3'
+services:
+  ubuntu:
+    # build: .
+    image: ubuntu/ruby
+    container_name: oop-ruby
+    volumes:
+      - ./app:/app
+    tty: true
