@@ -1,8 +1,8 @@
 class Animal
 
-    attr_accessor :name, :weight, :paws
+    attr_accessor :name, :weight
 
-    def initialize(name, weight, paws)
+    def initialize(name, weight)
         @name = name
         @weight = weight
         @paws = paws
@@ -15,6 +15,8 @@ class Animal
 end
 # Herança ruby representada pelo Sinal < 
 class Dog < Animal
+
+    attr_accessor :paws
 
     def initialize(name, weight, paws)
         @name = name
