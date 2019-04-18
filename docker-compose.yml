@@ -3,7 +3,7 @@ services:
   ubuntu:
     # build: .
     image: ubuntu/ruby
-    container_name: oop-ruby
+    container_name: poo-ruby
     volumes:
       - ./app:/app
     tty: true
